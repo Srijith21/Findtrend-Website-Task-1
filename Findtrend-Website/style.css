@@ -1392,7 +1392,7 @@ ul.bottom-footer li a{
 
 }
 
-/* ............................................small-screen-stylings 980px......... */
+/* ............................................Responsive 980px......... */
 
 @media only screen and (max-width:980px){
     .container{
@@ -1962,7 +1962,7 @@ ul.bottom-footer li a{
         font-weight: 500;
     }
 }
-/* ............................................small-screen-stylings 768px......... */
+/* ............................................Responsive 768px......... */
 @media only screen and (max-width:768px){
     .container{
         padding: 30px 10%;
@@ -2588,7 +2588,7 @@ ul.bottom-footer li a{
     }
 }
 
-/* .............................................................small-screen-stylings 640px......... */
+/* .............................................................Responsive 640px......... */
 
 
 @media only screen and (max-width: 640px){
@@ -2944,8 +2944,7 @@ ul.bottom-footer li a{
 }
 }
 
-
-/* ............................................small-screen-stylings 400px......... */
+/* ............................................Responsive 480px......... */
 @media only screen and (max-width: 480px){
     nav.top-nav{
         display: flex;
@@ -3328,7 +3327,7 @@ ul.bottom-footer li a{
     font-weight: 400;
 }
 }
-/* ............................................small-screen-stylings 360px......... */
+/* ............................................Responsive 360px......... */
 @media only screen and (max-width: 360px){
     nav.top-nav{
         display: flex;
@@ -3823,30 +3822,22 @@ ul.bottom-footer li a{
     .tab.pinterest{
         position: static;
         transition: transform cubic-bezier(0, 0.79, 1, 0.17) 1s;
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     .tab.facebook{
         position: static;
         transition: none;
-
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     .tab.twitter{
         position: static;
         transition: none;
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     .tab.dribble{
         position: static;
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     @keyframes tab{
         0% {
             transform:none;
         }
-        /* 100% {
-            transform: translate(10px, 10%);
-        } */
     }
     .arrow{
         display: none;
@@ -3951,7 +3942,7 @@ ul.bottom-footer li a{
         margin-bottom: 30px;
         height: auto;
     }
-    /* .................................trending-tweets-responsive 360px............ */
+    /* .................................trending-tweets-responsive 320px............ */
 
     #trending-tweets a.button {
         width: 10%;
@@ -3962,7 +3953,7 @@ ul.bottom-footer li a{
         color: #fff;
         font-size: 13px;
     }
-    /* .................................price-responsive 360px............ */
+    /* .................................price-responsive 320px............ */
     .sec-top-head{
         text-align: center;
         margin: auto;
@@ -4039,7 +4030,7 @@ ul.bottom-footer li a{
         margin: 20px auto;
         padding: 15px 50px;
     }
-    /* ............................platforms 360px........... */
+    /* ............................platforms 320px........... */
     .connected-platforms{
         margin: 20px auto;
     }
@@ -4058,7 +4049,7 @@ ul.bottom-footer li a{
         margin: auto ;
         padding: auto;
     }
-    /* .................join..responsive 360px...... */
+    /* .................join..responsive 320px...... */
     #join .sec-top{
         margin: 80px auto;
         width: 100%;
@@ -4067,7 +4058,7 @@ ul.bottom-footer li a{
         font-size: 25px;
         color: #000;
     }
-/* .................footer..responsive 360px...... */
+/* .................footer..responsive 320px...... */
 #footer{
     background-color: #fff;
 }
