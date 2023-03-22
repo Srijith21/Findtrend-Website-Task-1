@@ -615,7 +615,7 @@ ul.bottom-footer li a{
 }
 /* -------------------------------------------------RESPONSIVE DESIGNING------------------------------------------ */
 
-/* -------------------------------------------------1440px------------------------------------------ */
+/* ----------------------------------------------------------------------------Responsive 1440px------------------------------------------ */
 
 @media only screen and (max-width:1440px){
     #header{
@@ -828,7 +828,7 @@ ul.bottom-footer li a{
     
 }
 
-/* -------------------------------------------------1280px------------------------------------------ */
+/* ----------------------------------------------------------------------------Responsive 1280px------------------------------------------ */
 
 @media only screen and (max-width:1280px){
 .container{
@@ -1392,7 +1392,7 @@ ul.bottom-footer li a{
 
 }
 
-/* ............................................Responsive 980px......... */
+/* ----------------------------------------------------------------------------Responsive 980px------------------------------------------ */
 
 @media only screen and (max-width:980px){
     .container{
@@ -1766,7 +1766,7 @@ ul.bottom-footer li a{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 30%;
+        width: 40%;
         margin: 0 auto;
         position:relative;
         margin-bottom: 50px;
@@ -1794,7 +1794,7 @@ ul.bottom-footer li a{
     .arrow-img{
         position: absolute;
         top: 10%;
-        right: -80%;
+        right: -50%;
     }
     
     .sec-bottom-plans ul{
@@ -1962,7 +1962,8 @@ ul.bottom-footer li a{
         font-weight: 500;
     }
 }
-/* ............................................Responsive 768px......... */
+/* ----------------------------------------------------------------------------Responsive 768px------------------------------------------ */
+
 @media only screen and (max-width:768px){
     .container{
         padding: 30px 10%;
@@ -2212,14 +2213,14 @@ ul.bottom-footer li a{
     }
     .sec-2 img.arrow-text{
         position: absolute;
-        top: 32%;
+        top: 10%;
         right: 0%;
         filter: invert(100%);
         -webkit-filter: invert(100%);
     }
     .sec-2 img.arrow-text.left{
         position: absolute;
-        top: 32%;
+        top: 10%;
         left: 0%;
         filter: invert(100%);
         -webkit-filter: invert(100%);
@@ -2588,7 +2589,7 @@ ul.bottom-footer li a{
     }
 }
 
-/* .............................................................Responsive 640px......... */
+/* ----------------------------------------------------------------------------Responsive 640px------------------------------------------ */
 
 
 @media only screen and (max-width: 640px){
@@ -2602,23 +2603,6 @@ ul.bottom-footer li a{
         align-items: center;
         justify-content: space-between;
     }
-    /* nav.top-nav ul{
-        position: fixed;
-        right:-200px;
-        top: 0;
-        padding-top: 50px;
-        height: 100vh;
-        width: 200px;
-        background-color: #A6FF34;
-        z-index: 2;
-        transition: right 0.5s;
-        padding: 100px 0;
-    }
-    nav.top-nav .fa-solid.fa-circle-xmark{
-        position: absolute;
-        top: 25px;
-        left: 5px;
-    } */
     nav.top-nav ul li{
         display:inline-block;
         list-style: none;
@@ -2702,30 +2686,22 @@ ul.bottom-footer li a{
     .tab.pinterest{
         position: static;
         transition: transform cubic-bezier(0, 0.79, 1, 0.17) 1s;
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     .tab.facebook{
         position: static;
         transition: none;
-
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     .tab.twitter{
         position: static;
         transition: none;
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     .tab.dribble{
         position: static;
-        /* animation:  tab 2s ease-in forwards infinite alternate; */
     }
     @keyframes tab{
         0% {
             transform:none;
         }
-        /* 100% {
-            transform: translate(10px, 10%);
-        } */
     }
     .arrow{
         display: none;
@@ -2735,7 +2711,7 @@ ul.bottom-footer li a{
         margin-bottom: 20px;
     }
     .sec-1 h1{
-        font-size: 20px;
+        font-size: 33px;
         color: #181818;
     }
     .sec-2{
@@ -2944,7 +2920,7 @@ ul.bottom-footer li a{
 }
 }
 
-/* ............................................Responsive 480px......... */
+/* ----------------------------------------------------------------------------Responsive 480px------------------------------------------ */
 @media only screen and (max-width: 480px){
     nav.top-nav{
         display: flex;
@@ -3327,7 +3303,8 @@ ul.bottom-footer li a{
     font-weight: 400;
 }
 }
-/* ............................................Responsive 360px......... */
+
+/* ----------------------------------------------------------------------------Responsive 360px------------------------------------------ */
 @media only screen and (max-width: 360px){
     nav.top-nav{
         display: flex;
@@ -3343,7 +3320,8 @@ ul.bottom-footer li a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 60%;
+        width: 100%;
+        margin: auto;
     }
     div.login a.button{
         background-color: #fff;
@@ -3364,8 +3342,8 @@ ul.bottom-footer li a{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 30%;
-        margin: auto auto auto 5px ;
+        width: 45%;
+        margin: auto;
         text-align: center;
     }
     .logo img{
@@ -3710,7 +3688,7 @@ ul.bottom-footer li a{
     font-weight: 400;
 }
 }
-/* ............................................................responsive 320px...... */
+/* ----------------------------------------------------------------------------Responsive 320px------------------------------------------ */
 
 @media only screen and (max-width: 320px){
     nav.top-nav{
@@ -3727,7 +3705,7 @@ ul.bottom-footer li a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 60%;
+        width: 100%;
         margin: auto;
     }
     div.login a.button{
@@ -3750,7 +3728,7 @@ ul.bottom-footer li a{
         align-items: center;
         justify-content: center;
         width: 45%;
-        margin:5px auto;
+        margin: auto;
         text-align: center;
     }
     .logo img{
@@ -3805,7 +3783,7 @@ ul.bottom-footer li a{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin: auto;
+        margin: 20px auto;
         height: auto;
     }
     .tab{
